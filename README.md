@@ -14,6 +14,8 @@ Modifications in this fork
 
 The original fork forces a CMAKE_BUILD_TYPE of Release, which breaks support for custom build types and the debugger. I removed it in this fork for those who wish to use this as a submodule for their projects
 
+For simplicity, I also included the noiseutils.h library so it does not have to be separately downloaded
+
 About the original Fork
 ---------------
 

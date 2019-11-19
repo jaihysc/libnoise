@@ -29,6 +29,7 @@ set(
 	${INC_DIR}/noise/misc.h
 	${INC_DIR}/noise/noise.h
 	${INC_DIR}/noise/noisegen.h
+	${INC_DIR}/noise/noiseutils.h
 	${INC_DIR}/noise/vectortable.h
 	${INC_DIR}/noise/model/cylinder.h
 	${INC_DIR}/noise/model/line.h
@@ -67,6 +68,7 @@ set(
 	${INC_DIR}/noise/module/voronoi.h
 	${SRC_DIR}/latlon.cpp
 	${SRC_DIR}/noisegen.cpp
+	${SRC_DIR}/noiseutils.cpp
 	${SRC_DIR}/model/cylinder.cpp
 	${SRC_DIR}/model/line.cpp
 	${SRC_DIR}/model/plane.cpp
